@@ -1,0 +1,78 @@
+
+        body {
+        background-image: url('img/bg.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+
+}
+.row :hover{
+    background-color:white;
+}
+
+input{
+  border: none;
+}
+button {
+  height: 50px;
+  width: 50px;
+  margin: 10px 4px;
+  border-radius:22px;
+  background-color:rgb(210, 197, 197);
+ 
+  border: none !important;
+}
+*:focus {
+    outline: 0 !important;
+}
+#allClear {
+  box-shadow: inset 1px 1px 50px  #ea0b0b;
+  border: none;
+}
+#clear {
+  box-shadow: inset 1px 1px 50px  #CC6600;
+  border: none;
+}
+#equals{
+  box-shadow: inset 1px 1px 50px #10f600;
+  border: none;
+}
+/* Hidden button for formatting sake */
+#blank {
+  visibility: hidden;
+}
+.calcBG {
+  width: 280px;
+  background-color:grey;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: inset 1px 1px 50px #000;
+  margin: 25vh auto;
+}
+.screen {
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 2px;
+  font-size: 16px;
+  font-weight: bold;
+  
+
+background: #8e9eab; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+  
+  
+}
+small {
+  color: #fff;
+  font-weight: bold;
+}
+.name{
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    letter-spacing:2px;
+}
